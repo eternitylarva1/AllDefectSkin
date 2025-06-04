@@ -1,0 +1,209 @@
+{
+"skeleton": {
+	"hash": "kUqLNU9igWlC+nLZzMNKs7u/BOw",
+	"spine": "3.8.75",
+	"images": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\SlayTheSpire\\desktop-1.0 (2)\\images\\monsters\\theCity\\torchHead",
+	"audio": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\SlayTheSpire\\desktop-1.0 (2)\\images\\monsters\\theCity\\torchHead"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "torso", "parent": "root", "x": 4.05, "y": 71.15 },
+	{ "name": "handtarget", "parent": "root", "x": -41.62, "y": 67.9, "color": "ff3f00ff" },
+	{ "name": "armleft", "parent": "torso", "length": 60, "rotation": -130, "x": -4.58, "y": 25.63 },
+	{ "name": "hand", "parent": "armleft", "length": 15, "rotation": -140, "x": 61.23, "y": -2.07 },
+	{ "name": "armright", "parent": "torso", "x": 15.95, "y": 23.05 },
+	{ "name": "head", "parent": "torso", "x": 3.95, "y": 43.44 },
+	{ "name": "fireslot", "parent": "head", "x": -2.51, "y": 32.16 },
+	{ "name": "halberd", "parent": "hand", "rotation": 10, "x": 40.41, "y": 4.64 },
+	{ "name": "headback", "parent": "head", "x": -1.43, "y": 25.39 },
+	{ "name": "leglefttarget", "parent": "root", "x": -15.48, "y": -10.28, "color": "ff3f00ff" },
+	{ "name": "legleft", "parent": "torso", "length": 30, "rotation": -90, "x": -19.08, "y": -50.27 },
+	{ "name": "legrighttarget", "parent": "root", "x": 20.62, "y": -11.22, "color": "ff3f00ff" },
+	{ "name": "legright", "parent": "torso", "length": 40, "rotation": -90, "x": 16.86, "y": -39.33 },
+	{ "name": "shadow", "parent": "root", "x": 2.7, "y": -10.23 }
+],
+"slots": [
+	{ "name": "images/armleft", "bone": "armleft", "attachment": "images/armleft" },
+	{ "name": "images/torso", "bone": "torso", "attachment": "images/torso" },
+	{ "name": "images/shadow", "bone": "shadow", "attachment": "images/shadow" },
+	{ "name": "images/legleft", "bone": "legleft", "attachment": "images/legleft" },
+	{ "name": "images/legright", "bone": "legright", "attachment": "images/legright" },
+	{ "name": "images/armright", "bone": "armright", "attachment": "images/armright" },
+	{ "name": "images/headback", "bone": "headback", "attachment": "images/headback" },
+	{ "name": "images/head", "bone": "head", "attachment": "images/head" },
+	{ "name": "images/halberd", "bone": "halberd", "attachment": "images/halberd" },
+	{ "name": "images/handleft", "bone": "hand", "attachment": "images/handleft" }
+],
+"ik": [
+	{
+		"name": "handtarget",
+		"bones": [ "armleft", "hand" ],
+		"target": "handtarget",
+		"bendPositive": false
+	},
+	{
+		"name": "leglefttarget",
+		"order": 1,
+		"bones": [ "legleft" ],
+		"target": "leglefttarget"
+	},
+	{
+		"name": "legrighttarget",
+		"order": 2,
+		"bones": [ "legright" ],
+		"target": "legrighttarget"
+	}
+],
+"animations": {
+	"halberd_slam": {
+		"bones": {
+			"torso": {
+				"translate": [
+					{
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"time": 0.0
+					},
+					{
+						"time": 1.1667,
+						"x": -3.49,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{ "time": 2.3333 }
+				]
+			},
+			"handtarget": {
+				"translate": [
+					{
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"time": 0.0
+					},
+					{ "time": 0.8667, "x": -4.06 },
+					{ "time": 1.2333, "x": -17.6, "y": 26.33 },
+					{ "time": 1.6333, "x": -20.8, "y": 55.05 },
+					{ "time": 1.7667, "x": -14.45, "y": 23.59 },
+					{ "time": 1.8667 }
+				]
+			},
+			"armright": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 1.1667, "angle": 10 },
+					{ "time": 2.3333, "angle": 0.0 }
+				]
+			}
+		}
+	},
+	"idle": {
+		"bones": {
+			"torso": {
+				"translate": [
+					{
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"time": 0.0
+					},
+					{
+						"time": 1.5,
+						"x": -3.49,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{
+						"time": 3,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{
+						"time": 4.5,
+						"x": 3.59,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{ "time": 6 }
+				]
+			},
+			"handtarget": {
+				"translate": [
+					{
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"time": 0.0
+					},
+					{
+						"time": 1.5,
+						"x": -4.06,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{
+						"time": 3,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{
+						"time": 4.5,
+						"x": 2.23,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{ "time": 6 }
+				]
+			},
+			"head": {
+				"translate": [
+					{
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ],
+						"time": 0.0
+					},
+					{
+						"time": 2.2667,
+						"y": 1.44,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{
+						"time": 4.1333,
+						"y": -1.57,
+						"curve": [ 0.25, 0.0, 0.75, 1.0 ]
+					},
+					{ "time": 6 }
+				]
+			},
+			"armright": {
+				"rotate": [
+					{ "time": 0.0, "angle": 0.0 },
+					{ "time": 1.5, "angle": 10 },
+					{ "time": 3, "angle": 0.0 },
+					{ "time": 4.5, "angle": -10 },
+					{ "time": 6, "angle": 0.0 }
+				]
+			}
+		}
+	}
+},
+"skins": {
+	"default": {
+		"images/legright": {
+			"images/legright": { "x": 26.45, "y": -5.02, "rotation": 90, "width": 45, "height": 72 }
+		},
+		"images/head": {
+			"images/head": { "x": -0.98, "y": 87.62, "width": 129, "height": 99 }
+		},
+		"images/armleft": {
+			"images/armleft": { "x": 44.73, "y": -31.44, "rotation": 130, "width": 72, "height": 63 }
+		},
+		"images/shadow": {
+			"images/shadow": { "x": -1.54, "y": -26.25, "width": 110, "height": 19 }
+		},
+		"images/torso": {
+			"images/torso": { "x": 5.93, "y": 26.78, "width": 95, "height": 150 }
+		},
+		"images/handleft": {
+			"images/handleft": { "x": 11.12, "y": 38.94, "rotation": 255, "width": 15, "height": 23 }
+		},
+		"images/headback": {
+			"images/headback": { "x": 1.98, "y": 93.64, "width": 80, "height": 78 }
+		},
+		"images/halberd": {
+			"images/halberd": { "x": 10.04, "y": 32.3, "rotation": 262, "width": 65, "height": 233 }
+		},
+		"images/armright": {
+			"images/armright": { "x": 25.12, "y": -25.62, "width": 33, "height": 89 }
+		},
+		"images/legleft": {
+			"images/legleft": { "x": 18.36, "y": -6.86, "rotation": 90, "width": 41, "height": 68 }
+		}
+	}
+}
+}

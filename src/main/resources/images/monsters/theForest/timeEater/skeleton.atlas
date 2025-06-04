@@ -1,0 +1,97 @@
+
+skeleton.png
+size: 762,311
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ant2_bg
+  rotate: false
+  xy: 492, 63
+  size: 28, 36
+  orig: 30, 37
+  offset: 1, 1
+  index: -1
+ant2_fg
+  rotate: true
+  xy: 477, 11
+  size: 50, 41
+  orig: 50, 42
+  offset: 0, 1
+  index: -1
+ant_bg
+  rotate: true
+  xy: 680, 79
+  size: 57, 52
+  orig: 58, 53
+  offset: 0, 0
+  index: -1
+ant_fg
+  rotate: true
+  xy: 680, 43
+  size: 34, 74
+  orig: 34, 77
+  offset: 0, 3
+  index: -1
+arm_bg
+  rotate: false
+  xy: 356, 2
+  size: 119, 60
+  orig: 159, 104
+  offset: 20, 23
+  index: -1
+arm_fg
+  rotate: true
+  xy: 527, 138
+  size: 92, 233
+  orig: 93, 234
+  offset: 0, 1
+  index: -1
+cloak_bg
+  rotate: true
+  xy: 356, 64
+  size: 35, 134
+  orig: 37, 134
+  offset: 0, 0
+  index: -1
+cloak_fg
+  rotate: true
+  xy: 2, 3
+  size: 306, 352
+  orig: 306, 352
+  offset: 0, 0
+  index: -1
+clock
+  rotate: true
+  xy: 527, 65
+  size: 71, 103
+  orig: 75, 107
+  offset: 2, 2
+  index: -1
+crawl
+  rotate: false
+  xy: 522, 6
+  size: 74, 57
+  orig: 80, 80
+  offset: 6, 8
+  index: -1
+head
+  rotate: false
+  xy: 356, 101
+  size: 169, 129
+  orig: 178, 134
+  offset: 0, 1
+  index: -1
+shadow
+  rotate: false
+  xy: 356, 232
+  size: 399, 77
+  orig: 403, 88
+  offset: 2, 2
+  index: -1
+tail
+  rotate: true
+  xy: 632, 13
+  size: 123, 46
+  orig: 123, 50
+  offset: 0, 2
+  index: -1

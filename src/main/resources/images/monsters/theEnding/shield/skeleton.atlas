@@ -1,0 +1,41 @@
+
+skeleton.png
+size: 385,269
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+growth
+  rotate: true
+  xy: 2, 16
+  size: 251, 204
+  orig: 251, 204
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 339, 2
+  size: 265, 44
+  orig: 265, 44
+  offset: 0, 0
+  index: -1
+shield
+  rotate: false
+  xy: 208, 77
+  size: 129, 190
+  orig: 129, 190
+  offset: 0, 0
+  index: -1
+wire_main_neck
+  rotate: true
+  xy: 208, 4
+  size: 71, 69
+  orig: 71, 69
+  offset: 0, 0
+  index: -1
+wire_main_neck-1
+  rotate: false
+  xy: 279, 9
+  size: 56, 66
+  orig: 56, 66
+  offset: 0, 0
+  index: -1

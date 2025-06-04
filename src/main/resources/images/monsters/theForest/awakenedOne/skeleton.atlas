@@ -1,0 +1,118 @@
+
+skeleton.png
+size: 712,271
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ankle_f
+  rotate: true
+  xy: 628, 41
+  size: 110, 46
+  orig: 111, 49
+  offset: 0, 1
+  index: -1
+arm_f
+  rotate: false
+  xy: 416, 87
+  size: 49, 81
+  orig: 51, 84
+  offset: 1, 1
+  index: -1
+beak
+  rotate: true
+  xy: 573, 14
+  size: 32, 50
+  orig: 33, 50
+  offset: 1, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 70
+  size: 412, 199
+  orig: 413, 203
+  offset: 1, 1
+  index: -1
+dagger
+  rotate: true
+  xy: 667, 5
+  size: 34, 39
+  orig: 34, 39
+  offset: 0, 0
+  index: -1
+eye1
+  rotate: true
+  xy: 625, 2
+  size: 37, 40
+  orig: 41, 44
+  offset: 4, 4
+  index: -1
+feathers
+  rotate: true
+  xy: 676, 53
+  size: 36, 29
+  orig: 41, 33
+  offset: 2, 2
+  index: -1
+forearm_f
+  rotate: false
+  xy: 676, 91
+  size: 33, 60
+  orig: 33, 61
+  offset: 0, 0
+  index: -1
+hand_f
+  rotate: true
+  xy: 467, 138
+  size: 30, 25
+  orig: 31, 25
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 617, 153
+  size: 93, 116
+  orig: 96, 120
+  offset: 0, 1
+  index: -1
+leg_b
+  rotate: false
+  xy: 416, 170
+  size: 68, 99
+  orig: 71, 100
+  offset: 2, 1
+  index: -1
+leg_f
+  rotate: true
+  xy: 496, 48
+  size: 100, 130
+  orig: 100, 131
+  offset: 0, 0
+  index: -1
+light_1
+  rotate: false
+  xy: 496, 150
+  size: 119, 119
+  orig: 121, 121
+  offset: 1, 1
+  index: -1
+lowBeak
+  rotate: false
+  xy: 467, 105
+  size: 24, 31
+  orig: 26, 32
+  offset: 1, 1
+  index: -1
+right_hand
+  rotate: true
+  xy: 496, 3
+  size: 43, 75
+  orig: 48, 79
+  offset: 3, 2
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 6
+  size: 492, 62
+  orig: 508, 75
+  offset: 13, 11
+  index: -1

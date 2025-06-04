@@ -3,7 +3,7 @@
   "name": "全员机器人皮肤(半成品) Defect Monster Skin",
   "author_list": ["蝴蝶是幼虫(b站)","鹿血兰陵君(b站)"],
   "description": "所有怪物皮肤变成故障机器人(目前只做了6个boss)",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "sts_version": "12-22-2020",
   "mts_version": "3.23.2",
   "dependencies": ["basemod"]

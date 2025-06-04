@@ -1,0 +1,83 @@
+
+skeleton.png
+size: 400,507
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/handleft
+  rotate: true
+  xy: 350, 136
+  size: 25, 23
+  orig: 25, 24
+  offset: 0, 0
+  index: -1
+images/left_finger_3
+  rotate: false
+  xy: 321, 134
+  size: 27, 27
+  orig: 28, 29
+  offset: 1, 1
+  index: -1
+images/left_forearm
+  rotate: true
+  xy: 344, 284
+  size: 25, 40
+  orig: 25, 40
+  offset: 0, 0
+  index: -1
+images/legleft
+  rotate: true
+  xy: 321, 273
+  size: 49, 21
+  orig: 50, 23
+  offset: 1, 0
+  index: -1
+images/legleft-1
+  rotate: false
+  xy: 321, 163
+  size: 74, 108
+  orig: 75, 108
+  offset: 1, 0
+  index: -1
+images/legright
+  rotate: false
+  xy: 344, 362
+  size: 45, 143
+  orig: 45, 145
+  offset: 0, 1
+  index: -1
+images/robeback
+  rotate: true
+  xy: 2, 2
+  size: 128, 350
+  orig: 128, 350
+  offset: 0, 0
+  index: -1
+images/robefront
+  rotate: true
+  xy: 2, 324
+  size: 181, 340
+  orig: 181, 340
+  offset: 0, 0
+  index: -1
+images/shadow
+  rotate: false
+  xy: 2, 132
+  size: 231, 190
+  orig: 231, 190
+  offset: 0, 0
+  index: -1
+images/shoulderback
+  rotate: true
+  xy: 344, 311
+  size: 49, 54
+  orig: 49, 64
+  offset: 0, 10
+  index: -1
+images/staff
+  rotate: false
+  xy: 235, 134
+  size: 84, 188
+  orig: 84, 189
+  offset: 0, 0
+  index: -1

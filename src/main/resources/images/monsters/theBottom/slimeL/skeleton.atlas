@@ -1,0 +1,132 @@
+
+skeleton.png
+size: 205,383
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/body
+  rotate: true
+  xy: 81, 2
+  size: 260, 122
+  orig: 263, 133
+  offset: 0, 11
+  index: -1
+images/drop1
+  rotate: false
+  xy: 2, 353
+  size: 31, 18
+  orig: 32, 18
+  offset: 0, 0
+  index: -1
+images/drop2
+  rotate: false
+  xy: 2, 374
+  size: 11, 7
+  orig: 11, 7
+  offset: 0, 0
+  index: -1
+images/drop3
+  rotate: false
+  xy: 15, 373
+  size: 12, 8
+  orig: 13, 8
+  offset: 0, 0
+  index: -1
+images/eye1
+  rotate: false
+  xy: 86, 369
+  size: 14, 12
+  orig: 14, 12
+  offset: 0, 0
+  index: -1
+images/eye4
+  rotate: false
+  xy: 86, 369
+  size: 14, 12
+  orig: 14, 12
+  offset: 0, 0
+  index: -1
+images/eye2
+  rotate: false
+  xy: 51, 370
+  size: 11, 11
+  orig: 11, 11
+  offset: 0, 0
+  index: -1
+images/eye3
+  rotate: false
+  xy: 51, 370
+  size: 11, 11
+  orig: 11, 11
+  offset: 0, 0
+  index: -1
+images/eye6
+  rotate: false
+  xy: 29, 373
+  size: 10, 8
+  orig: 11, 9
+  offset: 0, 0
+  index: -1
+images/eye7
+  rotate: false
+  xy: 41, 373
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+images/eyeshadow1
+  rotate: false
+  xy: 67, 348
+  size: 23, 19
+  orig: 23, 19
+  offset: 0, 0
+  index: -1
+images/eyeshadow2
+  rotate: false
+  xy: 129, 365
+  size: 28, 16
+  orig: 28, 16
+  offset: 0, 0
+  index: -1
+images/eyeshadow3
+  rotate: false
+  xy: 159, 365
+  size: 26, 16
+  orig: 26, 16
+  offset: 0, 0
+  index: -1
+images/eyeshadow4
+  rotate: false
+  xy: 35, 350
+  size: 30, 18
+  orig: 30, 18
+  offset: 0, 0
+  index: -1
+images/eyeshadow6
+  rotate: false
+  xy: 102, 369
+  size: 25, 12
+  orig: 25, 12
+  offset: 0, 0
+  index: -1
+images/eyeshadow7
+  rotate: false
+  xy: 64, 370
+  size: 20, 11
+  orig: 20, 11
+  offset: 0, 0
+  index: -1
+images/right_finger_2
+  rotate: false
+  xy: 92, 264
+  size: 107, 99
+  orig: 108, 99
+  offset: 1, 0
+  index: -1
+images/shadow
+  rotate: true
+  xy: 2, 6
+  size: 340, 77
+  orig: 340, 77
+  offset: 0, 0
+  index: -1
