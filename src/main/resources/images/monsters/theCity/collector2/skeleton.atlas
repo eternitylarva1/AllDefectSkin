@@ -1,83 +1,118 @@
 
 skeleton.png
-size: 400,507
+size: 433,523
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-images/handleft
+images/Eye_down
   rotate: true
-  xy: 350, 136
+  xy: 282, 110
+  size: 61, 58
+  orig: 65, 62
+  offset: 2, 2
+  index: -1
+images/Eye_up
+  rotate: true
+  xy: 333, 77
+  size: 31, 30
+  orig: 33, 34
+  offset: 1, 2
+  index: -1
+images/handleft
+  rotate: false
+  xy: 235, 3
   size: 25, 23
   orig: 25, 24
   offset: 0, 0
   index: -1
 images/left_finger_3
   rotate: false
-  xy: 321, 134
+  xy: 365, 97
   size: 27, 27
   orig: 28, 29
   offset: 1, 1
   index: -1
 images/left_forearm
-  rotate: true
-  xy: 344, 284
+  rotate: false
+  xy: 313, 12
   size: 25, 40
   orig: 25, 40
   offset: 0, 0
   index: -1
 images/legleft
-  rotate: true
-  xy: 321, 273
+  rotate: false
+  xy: 262, 5
   size: 49, 21
   orig: 50, 23
   offset: 1, 0
   index: -1
 images/legleft-1
   rotate: false
-  xy: 321, 163
+  xy: 354, 316
   size: 74, 108
   orig: 75, 108
   offset: 1, 0
   index: -1
 images/legright
   rotate: false
-  xy: 344, 362
+  xy: 235, 28
   size: 45, 143
   orig: 45, 145
   offset: 0, 1
   index: -1
 images/robeback
   rotate: true
-  xy: 2, 2
+  xy: 2, 393
   size: 128, 350
   orig: 128, 350
   offset: 0, 0
   index: -1
 images/robefront
   rotate: true
-  xy: 2, 324
+  xy: 2, 210
   size: 181, 340
   orig: 181, 340
   offset: 0, 0
   index: -1
 images/shadow
   rotate: false
-  xy: 2, 132
+  xy: 2, 18
   size: 231, 190
   orig: 231, 190
   offset: 0, 0
   index: -1
 images/shoulderback
-  rotate: true
-  xy: 344, 311
+  rotate: false
+  xy: 282, 54
   size: 49, 54
   orig: 49, 64
   offset: 0, 10
   index: -1
 images/staff
   rotate: false
-  xy: 235, 134
+  xy: 344, 126
   size: 84, 188
   orig: 84, 189
   offset: 0, 0
+  index: -1
+images/图层 1
+  rotate: true
+  xy: 354, 426
+  size: 95, 77
+  orig: 109, 77
+  offset: 6, 0
+  index: -1
+images/图层 2
+  rotate: false
+  xy: 235, 173
+  size: 99, 35
+  orig: 101, 35
+  offset: 1, 0
+  index: -1
+images/图层 2 拷贝
+  rotate: false
+  xy: 2, 2
+  size: 34, 14
+  orig: 35, 14
+  offset: 1, 0
   index: -1

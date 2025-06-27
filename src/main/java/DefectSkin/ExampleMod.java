@@ -11,6 +11,8 @@ import basemod.interfaces.EditCardsSubscriber;
 /*     */ import com.megacrit.cardcrawl.core.CardCrawlGame;
 /*     */ import com.megacrit.cardcrawl.core.Settings;
 /*     */ import com.megacrit.cardcrawl.localization.LocalizedStrings;
+import com.megacrit.cardcrawl.monsters.beyond.AwakenedOne;
+import com.megacrit.cardcrawl.monsters.beyond.GiantHead;
 import com.megacrit.cardcrawl.monsters.beyond.OrbWalker;
 import com.megacrit.cardcrawl.monsters.exordium.TheGuardian;
 import com.megacrit.cardcrawl.rooms.MonsterRoom;
@@ -36,6 +38,7 @@ import com.megacrit.cardcrawl.rooms.MonsterRoomBoss;
 /*     */ {
 /*     */   public ExampleMod() {
 /*  32 */     BaseMod.subscribe((ISubscriber)this);
+
 
 /*     */   }
 /*     */   
